@@ -10,7 +10,7 @@ The data and potential files are organized into two distinct directories based o
 * `gyg/` - Reference configurations and trained NEP model for pristine/hexagonal $\gamma$-graphyne.
 * `rgyg/` - Reference configurations and trained NEP model for rectangular $\gamma$-graphyne.
 
-Each directory contains the respective training (`train.xyz`), testing (`test.xyz`), and trained NEP potential (`nep.txt`) files compatible with the [GPUMD](https://gpumd.org/) package.
+Each directory contains the respective training (`train.xyz`), testing (`test.xyz`), and trained NEP potential (`nep.txt`) files compatible with the [GPUMD](https://gpumd.org/) package. Please see the main text for the parameters and settings used to generate these files.
 
 ## 📄 Citation
 
