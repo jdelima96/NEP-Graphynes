@@ -2,7 +2,7 @@
 
 This repository contains the reference datasets and the corresponding trained Neuroevolution Potential (NEP) models developed in the study:
 
-> **Superior thermal conductivity and enhanced mechanical stiffness in rectangular $\gamma$-graphyne revealed by machine learning interatomic potentials**
+> **Superior directional thermal conductivity and stiffness in rectangular $\gamma$-graphyne revealed by neuroevolution machine-learning potentials**
 
 ## 📁 Repository Structure
 
@@ -10,19 +10,19 @@ The data and potential files are organized into two distinct directories based o
 * `gyg/` - Reference configurations and trained NEP model for pristine/hexagonal $\gamma$-graphyne.
 * `rgyg/` - Reference configurations and trained NEP model for rectangular $\gamma$-graphyne.
 
-Each directory contains the respective training (`train.xyz`), testing (`test.xyz`), and trained NEP potential (`nep.txt`) files compatible with the [GPUMD](https://gpumd.org/) package. Please see the main text for the parameters and settings used to generate these files.
+Each directory contains the respective training (`train.xyz`), testing (`test.xyz`), and trained NEP potential (`nep.txt`) files compatible with the [GPUMD](https://gpumd.org/) package. Note that these datasets and potentials are strictly system-specific and valid only for temperatures up to 1000 K. For the specific parameters and configurations used to generate these files, please refer to the main text of the publication.
 
 ## 📄 Citation
 
 If you use these datasets or potentials in your research, please cite our main text:
 
-*J. de Lima, C. F. Woellner. Superior thermal conductivity and enhanced mechanical stiffness in rectangular $\gamma$-graphyne revealed by machine learning interatomic potentials. (2026).*
+*J. de Lima, C. F. Woellner. Superior directional thermal conductivity and stiffness in rectangular $\gamma$-graphyne revealed by neuroevolution machine-learning potentials. (2026).*
 
 ### BibTeX
 
 ```bibtex
 @article{deLima2026superior,
-  title = {Superior thermal conductivity and enhanced mechanical stiffness in rectangular $\gamma$-graphyne revealed by machine learning interatomic potentials},
+  title = {Superior directional thermal conductivity and stiffness in rectangular $\gamma$-graphyne revealed by neuroevolution machine-learning potentials},
   volume = {},
   ISSN = {},
   DOI = {},
